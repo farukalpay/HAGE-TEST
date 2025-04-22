@@ -121,11 +121,11 @@ lim_{n→∞}‖F_{t_n}(h) - h_∞‖_{X_{t_n}} = 0
 
 ## Hodge Class Flow on Quartic K3 Surface
 
-This plot visualizes the convergence behavior of a rational \((1,1)\)-class under parallel transport across a one-parameter family of quartic K3 surfaces:
+This plot visualizes the convergence behavior of a rational (1,1)-class under parallel transport across a one-parameter family of quartic K3 surfaces:
 
-\[
+```
 f_t(x, y, z, w) = x^4 + y^4 + z^4 + w^4 + t(x^2 + y^2 - 3z^2 + w^2)
-\]
+```
 
 At each step, the transported class is orthogonally projected back onto the Néron–Severi group \(\mathrm{NS}(X_t)\), and its distance to the final configuration is measured in the Hodge norm. The result demonstrates clear convergence — a foundational aspect of our proposed flow-based approach to algebraicity.
 
@@ -133,7 +133,7 @@ At each step, the transported class is orthogonally projected back onto the Nér
 
 ![Hodge Norm Convergence](https://github.com/farukalpay/HODGE/blob/main/BB6A64FD-1905-42D0-B2E5-5A479B3B9910.png)
 
-> **Figure:** Distance between the current transported class \( h(t) \) and the final class \( h_{\text{final}} \) along the flow. The rapid decay confirms convergence behavior under our naive transport + projection setup.
+> **Figure:** Distance between the current transported class h(t) and the final class h_final along the flow. The rapid decay confirms convergence behavior under our naive transport + projection setup.
 
 
 ## Numerical Experiments
