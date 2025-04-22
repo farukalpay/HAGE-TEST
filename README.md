@@ -8,20 +8,22 @@ We propose a *convergence-theoretic* framework to study rational Hodge classes o
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Preliminaries on K3 Surfaces](#preliminaries-on-k3-surfaces)
-  - [Gauss--Manin Connection](#gauss--manin-connection)
-- [Flow Definition and Convergence](#flow-definition-and-convergence)
-  - [Orthogonal Projection and the Flow](#orthogonal-projection-and-the-flow)
-  - [Hodge Norm and Convergence](#hodge-norm-and-convergence)
-- [Main Theorem for K3 Surfaces](#main-theorem-for-k3-surfaces)
-- [Numerical Experiments](#numerical-experiments)
-- [Extensions and Future Directions](#extensions-and-future-directions)
-  - [Abelian Varieties](#abelian-varieties)
-  - [Calabi--Yau Threefolds](#calabi--yau-threefolds)
-  - [Motivic Approaches](#motivic-approaches)
-- [Conclusion](#conclusion)
-- [References](#references)
+* [Introduction](#introduction)
+* [Preliminaries on K3 Surfaces](#preliminaries-on-k3-surfaces)
+   * [Gauss--Manin Connection](#gauss--manin-connection)
+* [Flow Definition and Convergence](#flow-definition-and-convergence)
+   * [Orthogonal Projection and the Flow](#orthogonal-projection-and-the-flow)
+   * [Hodge Norm and Convergence](#hodge-norm-and-convergence)
+* [Main Theorem for K3 Surfaces](#main-theorem-for-k3-surfaces)
+* [Hodge Class Flow on Quartic K3 Surface](#hodge-class-flow-on-quartic-k3-surface)
+   * [Flow Distance Plot](#flow-distance-plot)
+* [Numerical Experiments](#numerical-experiments)
+* [Extensions and Future Directions](#extensions-and-future-directions)
+   * [Abelian Varieties](#abelian-varieties)
+   * [Calabi--Yau Threefolds](#calabi--yau-threefolds)
+   * [Motivic Approaches](#motivic-approaches)
+* [Conclusion](#conclusion)
+* [References](#references)
 
 ## Introduction
 
