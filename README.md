@@ -243,3 +243,11 @@ By formulating the K3-case Hodge Conjecture in terms of *flow convergence*, we o
 [3] W. Barth, C. Peters, and A. Van de Ven, *Compact Complex Surfaces*, Springer, 1984, doi:10.1007/978-3-642-97355-2
 
 [4] P. Deligne, *Théorie de Hodge II*, Inst. Hautes Études Sci. Publ. Math. 40 (1971), 5--57, doi:10.24033/pmih.40
+
+[5] P. Griffiths, *Periods of Integrals on Algebraic Manifolds*, Amer. J. Math. 90 (1968), 568–626.
+
+[6] C. Voisin, *Hodge Theory and Complex Algebraic Geometry*, Cambridge University Press, 2002, doi:10.1017/CBO9780511615344
+
+[7] V. Kulikov, *On the Global Torelli Theorem for K3 Surfaces*, Izv. Akad. Nauk SSSR Ser. Mat. 41 (1977), 956–989.
+
+[8] W. Stein et al., *Sage Mathematics Software*, http://www.sagemath.org
