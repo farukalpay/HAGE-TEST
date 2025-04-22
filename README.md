@@ -117,6 +117,23 @@ lim_{n→∞}‖F_{t_n}(h) - h_∞‖_{X_{t_n}} = 0
 
 **(ii)** If F_{t_n}(h)→h_∞, then the difference h_{t_n}-F_{t_n}(h) is the transcendental part, whose Hodge norm must go to zero. By the Torelli theorem and monodromy constraints [2, 3], this forces h to be algebraic in X₀.
 
+## Hodge Class Flow on Quartic K3 Surface
+
+This plot visualizes the convergence behavior of a rational \((1,1)\)-class under parallel transport across a one-parameter family of quartic K3 surfaces:
+
+\[
+f_t(x, y, z, w) = x^4 + y^4 + z^4 + w^4 + t(x^2 + y^2 - 3z^2 + w^2)
+\]
+
+At each step, the transported class is orthogonally projected back onto the Néron–Severi group \(\mathrm{NS}(X_t)\), and its distance to the final configuration is measured in the Hodge norm. The result demonstrates clear convergence — a foundational aspect of our proposed flow-based approach to algebraicity.
+
+### Flow Distance Plot
+
+![Hodge Norm Convergence](https://github.com/farukalpay/HODGE/blob/main/BB6A64FD-1905-42D0-B2E5-5A479B3B9910.png)
+
+> **Figure:** Distance between the current transported class \( h(t) \) and the final class \( h_{\text{final}} \) along the flow. The rapid decay confirms convergence behavior under our naive transport + projection setup.
+
+
 ## Numerical Experiments
 
 We illustrate an example showing how to simulate the flow numerically for a family of quartic K3 surfaces, measure the "distance" of F_t(h) from a candidate algebraic limit, and see that it converges for genuinely algebraic classes while failing to converge for transcendental ones.
